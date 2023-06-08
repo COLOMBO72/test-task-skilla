@@ -1,0 +1,58 @@
+header{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 15px;
+  .header_date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(137, 156, 177, 1);
+  }
+  .bar_maths{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    span{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 30px;
+      p{
+        margin-left: 3px;
+        color: rgba(0, 167, 117, 1);
+      }
+    }
+  }
+  .profile_block_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(137, 156, 177, 1);
+    .icon_search{
+      margin-right: 50px;
+    }
+    .name_wrap{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 50px;
+      img{
+        position: absolute;
+      }
+    }
+    .ava_wrap{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .avatar{
+      width: 40;
+      border-radius: 100px;
+    }
+  }
+}
